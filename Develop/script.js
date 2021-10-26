@@ -22,16 +22,16 @@ function writePassword() {
        window.alert("Please choose a number between 8 and 128.");
     writePassword()
   }
-  if(window.confirm("include numbers?")) {
+  if(window.confirm("Would you like to include numbers?")) {
     var newArray =  newArray.concat(numbers);  
    };
-   if(window.confirm("include capital letters?")) {
+   if(window.confirm("Would you like to include capital letters?")) {
        var newArray = newArray.concat(capLet);
    };
-   if(window.confirm("Include lowercase letters?")) {
+   if(window.confirm("Would you like to include lowercase letters?")) {
        var newArray = newArray.concat(lowerCase);
    };
-   if(window.confirm("Include special characters?")) {
+   if(window.confirm("Would you like to include special characters?")) {
        var newArray = newArray.concat(specialChar);
    };
     for(var i = 0; i < genPass; i++) {

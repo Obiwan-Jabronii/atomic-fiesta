@@ -6,4 +6,4 @@ Creates a randomly generated password with dynamic length and characters based o
 --CSS
 --Javascript
 
-<img src="Develop/images/password-gen.png>
+<img src="images/password-gen.png>
